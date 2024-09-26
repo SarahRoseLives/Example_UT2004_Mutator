@@ -21,11 +21,11 @@ I'm going to share what I've learned with you.
 
 5) Navigate to the UT2004/System folder from the command prompt (or terminal on linux)
    Run the following
-6) 
+ 
    ```ucc.exe make```
 
 6) This will compile your code.
-7) 
+
 7) Once compiled, if you wish to compile it again be sure to delete any files in the System folder with the name "HelloWorldMutator" or whatever you named your class.
 
 
