@@ -12,6 +12,8 @@ I'm going to share what I've learned with you.
    4) You'll notice this repo is stuctured like this as well.
 5) Create a .uc file to place your code, keep the Class name the same here.
    6) Again.... yes, it's "HelloWorldMutator"
+7)  Add the following to your UT2004.ini file's package list (or whatever you name it)
+   8) ```ServerPackages=HelloWorldMutator```
 7) Navigate to the UT2004/System folder from the command prompt (or terminal on linux)
    8) Run the following
    9) ```ucc.exe make```
