@@ -7,18 +7,18 @@ I'm going to share what I've learned with you.
 ## Setting Up Your Dev Enviornment
 
 1) Navigate to your UT2004 folder and create a new folder with the name you want for your mutator. This MUST match your class name so keep that in mind.
-   2) In this example it's "HelloWorldMutator"
-3) Create a folder under that called "Classes"
-   4) You'll notice this repo is stuctured like this as well.
-5) Create a .uc file to place your code, keep the Class name the same here.
-   6) Again.... yes, it's "HelloWorldMutator"
-7)  Add the following to your UT2004.ini file's package list (or whatever you name it)
-   8) ```ServerPackages=HelloWorldMutator```
-7) Navigate to the UT2004/System folder from the command prompt (or terminal on linux)
-   8) Run the following
-   9) ```ucc.exe make```
-10) This will compile your code.
-11) Once compiled, if you wish to compile it again be sure to delete any files in the System folder with the name "HelloWorldMutator" or whatever you named your class.
+   1) In this example it's "HelloWorldMutator"
+2) Create a folder under that called "Classes"
+   2) You'll notice this repo is stuctured like this as well.
+3) Create a .uc file to place your code, keep the Class name the same here.
+   3) Again.... yes, it's "HelloWorldMutator"
+4) Add the following to your UT2004.ini file's package list (or whatever you name it)
+   4) ```ServerPackages=HelloWorldMutator```
+5) Navigate to the UT2004/System folder from the command prompt (or terminal on linux)
+   5) Run the following
+   5) ```ucc.exe make```
+6) This will compile your code.
+7) Once compiled, if you wish to compile it again be sure to delete any files in the System folder with the name "HelloWorldMutator" or whatever you named your class.
 
 
 ## Resources and References
